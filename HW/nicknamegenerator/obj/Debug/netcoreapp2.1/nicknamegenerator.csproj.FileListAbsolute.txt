@@ -1,0 +1,11 @@
+/Users/amysayso/Desktop/CIDM3312/nicknamegenerator/bin/Debug/netcoreapp2.1/nicknamegenerator.deps.json
+/Users/amysayso/Desktop/CIDM3312/nicknamegenerator/bin/Debug/netcoreapp2.1/nicknamegenerator.runtimeconfig.json
+/Users/amysayso/Desktop/CIDM3312/nicknamegenerator/bin/Debug/netcoreapp2.1/nicknamegenerator.runtimeconfig.dev.json
+/Users/amysayso/Desktop/CIDM3312/nicknamegenerator/bin/Debug/netcoreapp2.1/nicknamegenerator.dll
+/Users/amysayso/Desktop/CIDM3312/nicknamegenerator/bin/Debug/netcoreapp2.1/nicknamegenerator.pdb
+/Users/amysayso/Desktop/CIDM3312/nicknamegenerator/obj/Debug/netcoreapp2.1/nicknamegenerator.csprojAssemblyReference.cache
+/Users/amysayso/Desktop/CIDM3312/nicknamegenerator/obj/Debug/netcoreapp2.1/nicknamegenerator.csproj.CoreCompileInputs.cache
+/Users/amysayso/Desktop/CIDM3312/nicknamegenerator/obj/Debug/netcoreapp2.1/nicknamegenerator.AssemblyInfoInputs.cache
+/Users/amysayso/Desktop/CIDM3312/nicknamegenerator/obj/Debug/netcoreapp2.1/nicknamegenerator.AssemblyInfo.cs
+/Users/amysayso/Desktop/CIDM3312/nicknamegenerator/obj/Debug/netcoreapp2.1/nicknamegenerator.dll
+/Users/amysayso/Desktop/CIDM3312/nicknamegenerator/obj/Debug/netcoreapp2.1/nicknamegenerator.pdb

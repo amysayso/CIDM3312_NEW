@@ -1,0 +1,11 @@
+/Users/amysayso/Desktop/CIDM3312/Inclass/Inclass1/bin/Debug/netcoreapp2.1/nickname.deps.json
+/Users/amysayso/Desktop/CIDM3312/Inclass/Inclass1/bin/Debug/netcoreapp2.1/nickname.runtimeconfig.json
+/Users/amysayso/Desktop/CIDM3312/Inclass/Inclass1/bin/Debug/netcoreapp2.1/nickname.runtimeconfig.dev.json
+/Users/amysayso/Desktop/CIDM3312/Inclass/Inclass1/bin/Debug/netcoreapp2.1/nickname.dll
+/Users/amysayso/Desktop/CIDM3312/Inclass/Inclass1/bin/Debug/netcoreapp2.1/nickname.pdb
+/Users/amysayso/Desktop/CIDM3312/Inclass/Inclass1/obj/Debug/netcoreapp2.1/nickname.csprojAssemblyReference.cache
+/Users/amysayso/Desktop/CIDM3312/Inclass/Inclass1/obj/Debug/netcoreapp2.1/nickname.csproj.CoreCompileInputs.cache
+/Users/amysayso/Desktop/CIDM3312/Inclass/Inclass1/obj/Debug/netcoreapp2.1/nickname.AssemblyInfoInputs.cache
+/Users/amysayso/Desktop/CIDM3312/Inclass/Inclass1/obj/Debug/netcoreapp2.1/nickname.AssemblyInfo.cs
+/Users/amysayso/Desktop/CIDM3312/Inclass/Inclass1/obj/Debug/netcoreapp2.1/nickname.dll
+/Users/amysayso/Desktop/CIDM3312/Inclass/Inclass1/obj/Debug/netcoreapp2.1/nickname.pdb

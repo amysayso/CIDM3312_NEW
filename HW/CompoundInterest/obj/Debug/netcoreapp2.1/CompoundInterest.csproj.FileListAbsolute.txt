@@ -1,0 +1,11 @@
+/Users/amysayso/Desktop/CIDM3312/CompoundInterest/obj/Debug/netcoreapp2.1/CompoundInterest.csprojAssemblyReference.cache
+/Users/amysayso/Desktop/CIDM3312/CompoundInterest/obj/Debug/netcoreapp2.1/CompoundInterest.csproj.CoreCompileInputs.cache
+/Users/amysayso/Desktop/CIDM3312/CompoundInterest/obj/Debug/netcoreapp2.1/CompoundInterest.AssemblyInfoInputs.cache
+/Users/amysayso/Desktop/CIDM3312/CompoundInterest/obj/Debug/netcoreapp2.1/CompoundInterest.AssemblyInfo.cs
+/Users/amysayso/Desktop/CIDM3312/CompoundInterest/bin/Debug/netcoreapp2.1/CompoundInterest.deps.json
+/Users/amysayso/Desktop/CIDM3312/CompoundInterest/bin/Debug/netcoreapp2.1/CompoundInterest.runtimeconfig.json
+/Users/amysayso/Desktop/CIDM3312/CompoundInterest/bin/Debug/netcoreapp2.1/CompoundInterest.runtimeconfig.dev.json
+/Users/amysayso/Desktop/CIDM3312/CompoundInterest/bin/Debug/netcoreapp2.1/CompoundInterest.dll
+/Users/amysayso/Desktop/CIDM3312/CompoundInterest/bin/Debug/netcoreapp2.1/CompoundInterest.pdb
+/Users/amysayso/Desktop/CIDM3312/CompoundInterest/obj/Debug/netcoreapp2.1/CompoundInterest.dll
+/Users/amysayso/Desktop/CIDM3312/CompoundInterest/obj/Debug/netcoreapp2.1/CompoundInterest.pdb
