@@ -1,0 +1,9 @@
+/Users/amysayso/Desktop/CIDM3312/HW/HW6/ConverterLib/obj/Debug/netstandard2.0/ConverterLib.csprojAssemblyReference.cache
+/Users/amysayso/Desktop/CIDM3312/HW/HW6/ConverterLib/obj/Debug/netstandard2.0/ConverterLib.csproj.CoreCompileInputs.cache
+/Users/amysayso/Desktop/CIDM3312/HW/HW6/ConverterLib/obj/Debug/netstandard2.0/ConverterLib.AssemblyInfoInputs.cache
+/Users/amysayso/Desktop/CIDM3312/HW/HW6/ConverterLib/obj/Debug/netstandard2.0/ConverterLib.AssemblyInfo.cs
+/Users/amysayso/Desktop/CIDM3312/HW/HW6/ConverterLib/bin/Debug/netstandard2.0/ConverterLib.deps.json
+/Users/amysayso/Desktop/CIDM3312/HW/HW6/ConverterLib/bin/Debug/netstandard2.0/ConverterLib.dll
+/Users/amysayso/Desktop/CIDM3312/HW/HW6/ConverterLib/bin/Debug/netstandard2.0/ConverterLib.pdb
+/Users/amysayso/Desktop/CIDM3312/HW/HW6/ConverterLib/obj/Debug/netstandard2.0/ConverterLib.dll
+/Users/amysayso/Desktop/CIDM3312/HW/HW6/ConverterLib/obj/Debug/netstandard2.0/ConverterLib.pdb
