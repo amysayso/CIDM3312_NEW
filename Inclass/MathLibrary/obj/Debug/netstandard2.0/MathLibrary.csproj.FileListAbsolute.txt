@@ -1,0 +1,9 @@
+/Users/amysayso/Desktop/CIDM3312/Inclass/MathLibrary/bin/Debug/netstandard2.0/MathLibrary.deps.json
+/Users/amysayso/Desktop/CIDM3312/Inclass/MathLibrary/bin/Debug/netstandard2.0/MathLibrary.dll
+/Users/amysayso/Desktop/CIDM3312/Inclass/MathLibrary/bin/Debug/netstandard2.0/MathLibrary.pdb
+/Users/amysayso/Desktop/CIDM3312/Inclass/MathLibrary/obj/Debug/netstandard2.0/MathLibrary.csprojAssemblyReference.cache
+/Users/amysayso/Desktop/CIDM3312/Inclass/MathLibrary/obj/Debug/netstandard2.0/MathLibrary.csproj.CoreCompileInputs.cache
+/Users/amysayso/Desktop/CIDM3312/Inclass/MathLibrary/obj/Debug/netstandard2.0/MathLibrary.AssemblyInfoInputs.cache
+/Users/amysayso/Desktop/CIDM3312/Inclass/MathLibrary/obj/Debug/netstandard2.0/MathLibrary.AssemblyInfo.cs
+/Users/amysayso/Desktop/CIDM3312/Inclass/MathLibrary/obj/Debug/netstandard2.0/MathLibrary.dll
+/Users/amysayso/Desktop/CIDM3312/Inclass/MathLibrary/obj/Debug/netstandard2.0/MathLibrary.pdb

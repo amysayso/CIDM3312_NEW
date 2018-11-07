@@ -1,0 +1,14 @@
+/Users/amysayso/Desktop/CIDM3312/Inclass/UnitConverter1/ConverterClient/obj/Debug/netcoreapp2.1/ConverterClient.csprojAssemblyReference.cache
+/Users/amysayso/Desktop/CIDM3312/Inclass/UnitConverter1/ConverterClient/obj/Debug/netcoreapp2.1/ConverterClient.csproj.CoreCompileInputs.cache
+/Users/amysayso/Desktop/CIDM3312/Inclass/UnitConverter1/ConverterClient/obj/Debug/netcoreapp2.1/ConverterClient.AssemblyInfoInputs.cache
+/Users/amysayso/Desktop/CIDM3312/Inclass/UnitConverter1/ConverterClient/obj/Debug/netcoreapp2.1/ConverterClient.AssemblyInfo.cs
+/Users/amysayso/Desktop/CIDM3312/Inclass/UnitConverter1/ConverterClient/bin/Debug/netcoreapp2.1/ConverterClient.deps.json
+/Users/amysayso/Desktop/CIDM3312/Inclass/UnitConverter1/ConverterClient/bin/Debug/netcoreapp2.1/ConverterClient.runtimeconfig.json
+/Users/amysayso/Desktop/CIDM3312/Inclass/UnitConverter1/ConverterClient/bin/Debug/netcoreapp2.1/ConverterClient.runtimeconfig.dev.json
+/Users/amysayso/Desktop/CIDM3312/Inclass/UnitConverter1/ConverterClient/bin/Debug/netcoreapp2.1/ConverterClient.dll
+/Users/amysayso/Desktop/CIDM3312/Inclass/UnitConverter1/ConverterClient/bin/Debug/netcoreapp2.1/ConverterClient.pdb
+/Users/amysayso/Desktop/CIDM3312/Inclass/UnitConverter1/ConverterClient/obj/Debug/netcoreapp2.1/ConverterClient.dll
+/Users/amysayso/Desktop/CIDM3312/Inclass/UnitConverter1/ConverterClient/obj/Debug/netcoreapp2.1/ConverterClient.pdb
+/Users/amysayso/Desktop/CIDM3312/Inclass/UnitConverter1/ConverterClient/bin/Debug/netcoreapp2.1/ConverterLib.dll
+/Users/amysayso/Desktop/CIDM3312/Inclass/UnitConverter1/ConverterClient/bin/Debug/netcoreapp2.1/ConverterLib.pdb
+/Users/amysayso/Desktop/CIDM3312/Inclass/UnitConverter1/ConverterClient/obj/Debug/netcoreapp2.1/ConverterClient.csproj.CopyComplete
