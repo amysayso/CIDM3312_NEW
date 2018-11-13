@@ -1,0 +1,13 @@
+@{
+    Layout = null;
+}
+
+<h1> The ceiling result is: </h1>
+<p>@ViewData["CeilingResult"]</p>
+
+@{
+    decimal number = Convert.ToInt32(ViewData["number"]);
+    decimal result = number;
+}
+
+<p>@result</p>

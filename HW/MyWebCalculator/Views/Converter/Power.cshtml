@@ -1,0 +1,14 @@
+@{
+    Layout = null;
+}
+
+<h1> The power result is: </h1>
+<p>@ViewData["PowerResult"]</p>
+
+@{
+    double left = Convert.ToDouble(ViewData["Left"]);
+    double right = Convert.ToDouble(ViewData["Right"]);
+    double result = left + right;
+}
+
+<p>@result</p>

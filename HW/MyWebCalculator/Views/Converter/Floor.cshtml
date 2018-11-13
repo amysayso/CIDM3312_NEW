@@ -1,0 +1,13 @@
+@{
+    Layout = null;
+}
+
+<h1> The floor result is: </h1>
+<p>@ViewData["FloorResult"]</p>
+
+@{
+    decimal number = Convert.ToInt32(ViewData["number"]);
+    decimal result = number;
+}
+
+<p>@result</p>

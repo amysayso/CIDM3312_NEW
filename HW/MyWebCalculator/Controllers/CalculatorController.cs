@@ -28,39 +28,82 @@ namespace MyWebCalculator.Controllers
     //     }
 
         //SUBTRACT
-        public string Subtract(decimal left, decimal right)
+
+        public IActionResult Subtract(decimal left, decimal right)
         {
-            return $"{left} - {right} is: {MathLibrary.MyMathRoutines.Subtract(left, right)}";
+            ViewData["Left"] = left;
+            ViewData["Right"] = right;
+            ViewData["SubtractResult"] = $"{left} - {right} is {MyMathRoutines.Subtract(left, right)}";
+            return View();
         }
+        // public string Subtract(decimal left, decimal right)
+        // {
+        //     return $"{left} - {right} is: {MathLibrary.MyMathRoutines.Subtract(left, right)}";
+        // }
 
         //MULTIPLY
-        public string Multiply(decimal left, decimal right)
+        public IActionResult Multiply(decimal left, decimal right)
         {
-            return $"{left} * {right} is: {MathLibrary.MyMathRoutines.Multiply(left, right)}";
+            ViewData["Left"] = left;
+            ViewData["Right"] = right;
+            ViewData["MultiplyResult"] = $"{left} * {right} is {MyMathRoutines.Multiply(left, right)}";
+            return View();
         }
+
+        // public string Multiply(decimal left, decimal right)
+        // {
+        //     return $"{left} * {right} is: {MathLibrary.MyMathRoutines.Multiply(left, right)}";
+        // }
 
         //DIVIDE
-        public string Divide(decimal left, decimal right)
+
+        public IActionResult Divide(decimal left, decimal right)
         {
-            return $"{left} / {right} is: {MathLibrary.MyMathRoutines.Divide(left, right)}";
+            ViewData["Left"] = left;
+            ViewData["Right"] = right;
+            ViewData["DivideResult"] = $"{left} / {right} is {MyMathRoutines.Divide(left, right)}";
+            return View();
         }
+        // public string Divide(decimal left, decimal right)
+        // {
+        //     return $"{left} / {right} is: {MathLibrary.MyMathRoutines.Divide(left, right)}";
+        // }
 
         //POWER
-        public string Power(double left, double right)
+        public IActionResult Power(double left, double right)
         {
-            return $"The power of {left} is {MathLibrary.MyMathRoutines.Power(left,right)}";
+            ViewData["Left"] = left;
+            ViewData["Right"] = right;
+            ViewData["PowerResult"] = $"{left} ^ {right} is {MyMathRoutines.Power(left, right)}";
+            return View();
         }
+        // public string Power(double left, double right)
+        // {
+        //     return $"The power of {left} is {MathLibrary.MyMathRoutines.Power(left,right)}";
+        // }
 
         //CEILING
-        public string Ceiling(decimal number)
+        public IActionResult Ceiling(decimal number)
         {
-            return $"The ceiling of {number} is {MathLibrary.MyMathRoutines.Ceiling(number)}";
+            ViewData["number"] = number;
+            ViewData["CeilingResult"] = $"{number} is {MyMathRoutines.Ceiling(number)}";
+            return View();
         }
+        // public string Ceiling(decimal number)
+        // {
+        //     return $"The ceiling of {number} is {MathLibrary.MyMathRoutines.Ceiling(number)}";
+        // }
 
         //FLOOR
-        public string Floor(decimal number)
+         public IActionResult Floor(decimal number)
         {
-            return $"The Floor of {number} is {MathLibrary.MyMathRoutines.Floor(number)}";
+            ViewData["number"] = number;
+            ViewData["FloorResult"] = $"{number} is {MyMathRoutines.Floor(number)}";
+            return View();
         }
+        // public string Floor(decimal number)
+        // {
+        //     return $"The Floor of {number} is {MathLibrary.MyMathRoutines.Floor(number)}";
+        // }
     }
 }
