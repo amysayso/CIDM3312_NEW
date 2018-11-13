@@ -70,11 +70,11 @@ namespace MyWebCalculator.Controllers
         // }
 
         //POWER
-        public IActionResult Power(double left, double right)
+        public IActionResult Power(double number, double power)
         {
-            ViewData["Left"] = left;
-            ViewData["Right"] = right;
-            ViewData["PowerResult"] = $"{left} ^ {right} is {MyMathRoutines.Power(left, right)}";
+            ViewData["Number"] = number;
+            ViewData["Power"] = power;
+            ViewData["PowerResult"] = $"{number} ^ {power} is {MyMathRoutines.Power(number, power)}";
             return View();
         }
         // public string Power(double left, double right)

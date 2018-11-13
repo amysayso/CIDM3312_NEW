@@ -32,10 +32,10 @@
 /Users/amysayso/Desktop/CIDM3312/HW/MyWebCalculator/obj/Debug/netcoreapp2.1/MyWebCalculator.csproj.CopyComplete
 /Users/amysayso/Desktop/CIDM3312/HW/MyWebCalculator/obj/Debug/netcoreapp2.1/MyWebCalculator.dll
 /Users/amysayso/Desktop/CIDM3312/HW/MyWebCalculator/obj/Debug/netcoreapp2.1/MyWebCalculator.pdb
-/Users/amysayso/Desktop/CIDM3312/HW/MyWebCalculator/obj/Debug/netcoreapp2.1/Razor/Views/Converter/Add.g.cshtml.cs
-/Users/amysayso/Desktop/CIDM3312/HW/MyWebCalculator/obj/Debug/netcoreapp2.1/Razor/Views/Converter/Ceiling.g.cshtml.cs
-/Users/amysayso/Desktop/CIDM3312/HW/MyWebCalculator/obj/Debug/netcoreapp2.1/Razor/Views/Converter/Divide.g.cshtml.cs
-/Users/amysayso/Desktop/CIDM3312/HW/MyWebCalculator/obj/Debug/netcoreapp2.1/Razor/Views/Converter/Floor.g.cshtml.cs
-/Users/amysayso/Desktop/CIDM3312/HW/MyWebCalculator/obj/Debug/netcoreapp2.1/Razor/Views/Converter/Multiply.g.cshtml.cs
-/Users/amysayso/Desktop/CIDM3312/HW/MyWebCalculator/obj/Debug/netcoreapp2.1/Razor/Views/Converter/Power.g.cshtml.cs
-/Users/amysayso/Desktop/CIDM3312/HW/MyWebCalculator/obj/Debug/netcoreapp2.1/Razor/Views/Converter/Subtract.g.cshtml.cs
+/Users/amysayso/Desktop/CIDM3312/HW/MyWebCalculator/obj/Debug/netcoreapp2.1/Razor/Views/Calculator/Add.g.cshtml.cs
+/Users/amysayso/Desktop/CIDM3312/HW/MyWebCalculator/obj/Debug/netcoreapp2.1/Razor/Views/Calculator/Ceiling.g.cshtml.cs
+/Users/amysayso/Desktop/CIDM3312/HW/MyWebCalculator/obj/Debug/netcoreapp2.1/Razor/Views/Calculator/Divide.g.cshtml.cs
+/Users/amysayso/Desktop/CIDM3312/HW/MyWebCalculator/obj/Debug/netcoreapp2.1/Razor/Views/Calculator/Floor.g.cshtml.cs
+/Users/amysayso/Desktop/CIDM3312/HW/MyWebCalculator/obj/Debug/netcoreapp2.1/Razor/Views/Calculator/Multiply.g.cshtml.cs
+/Users/amysayso/Desktop/CIDM3312/HW/MyWebCalculator/obj/Debug/netcoreapp2.1/Razor/Views/Calculator/Power.g.cshtml.cs
+/Users/amysayso/Desktop/CIDM3312/HW/MyWebCalculator/obj/Debug/netcoreapp2.1/Razor/Views/Calculator/Subtract.g.cshtml.cs

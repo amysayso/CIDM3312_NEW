@@ -7,7 +7,7 @@
 
 @{
     decimal number = Convert.ToInt32(ViewData["number"]);
-    decimal result = number;
+    decimal result = Math.Ceiling(number);
 }
 
 <p>@result</p>
