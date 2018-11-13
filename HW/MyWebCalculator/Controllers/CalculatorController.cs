@@ -11,12 +11,21 @@ namespace MyWebCalculator.Controllers
 {
     public class CalculatorController : Controller
     {
+        //https://localhost:5001/Calculator/Subtract?left=3&right=2 
+
         //ADD
-        
-        public string Add(decimal left, decimal right)
+
+        public IActionResult Add(decimal left, decimal right)
         {
-            return $"{left} + {right} is: {MathLibrary.MyMathRoutines.Add(left, right)}";
+            ViewData["Left"] = left;
+            ViewData["Right"] = right;
+            ViewData["AddResult"] = $"{left} + {right} is {MyMathRoutines.Add(left, right)}";
+            return View();
         }
+    //    public string Add(decimal left, decimal right)
+    //     {
+    //         return $"{left} + {right} is: {MathLibrary.MyMathRoutines.Add(left, right)}";
+    //     }
 
         //SUBTRACT
         public string Subtract(decimal left, decimal right)

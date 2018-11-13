@@ -1,0 +1,14 @@
+@{
+    Layout = null;
+}
+
+<h1> The sum is: </h1>
+<p>@ViewData["AddResult"]</p>
+
+@{
+    int left = Convert.ToInt32(ViewData["Left"]);
+    int right = Convert.ToInt32(ViewData["Right"]);
+    int result = left + right;
+}
+
+<p>@result</p>

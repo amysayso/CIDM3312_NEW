@@ -32,3 +32,4 @@
 /Users/amysayso/Desktop/CIDM3312/HW/MyWebCalculator/obj/Debug/netcoreapp2.1/MyWebCalculator.csproj.CopyComplete
 /Users/amysayso/Desktop/CIDM3312/HW/MyWebCalculator/obj/Debug/netcoreapp2.1/MyWebCalculator.dll
 /Users/amysayso/Desktop/CIDM3312/HW/MyWebCalculator/obj/Debug/netcoreapp2.1/MyWebCalculator.pdb
+/Users/amysayso/Desktop/CIDM3312/HW/MyWebCalculator/obj/Debug/netcoreapp2.1/Razor/Views/Converter/Add.g.cshtml.cs
