@@ -1,0 +1,17 @@
+@model ConverterViewModel
+
+<form asp-controller="Conversion" asp-action="DoConversion" method="POST">
+  <!-- borrowed some of this from: https://www.w3schools.com/html/html_forms.asp -->
+  Value to Convert:<br>
+  <input type="text" asp-for="@Model.ValueToConvert">
+  <br>
+  Conversion Type:<br>
+ <select asp-for= "@Model.ConversionType" value= "ConversionType">
+  <option value="CtoF">Celsius To Fahrenheit</option>
+  <option value="FtoC">Fahrenheit to Celsius</option>
+  <option value="opel">Opel</option>
+  <option value="audi">Audi</option>
+</select>
+  <br><br>
+  <input type="submit" value="Convert">
+</form>
