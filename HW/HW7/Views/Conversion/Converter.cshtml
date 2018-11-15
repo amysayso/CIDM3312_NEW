@@ -1,0 +1,43 @@
+@model ConverterViewModel
+
+<form asp-controller="Conversion" asp-action="DoConversion" method="POST">
+  <!-- borrowed some of this from: https://www.w3schools.com/html/html_forms.asp -->
+  <!-- borrowed some of this from: https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_select -->
+  
+  Value to Convert:<br>
+  <input type="text" asp-for="@Model.ValueToConvert">
+  <br>
+  Conversion Type:<br>
+ <select asp-for= "@Model.ConversionType" value= "ConversionType">
+     <!--Temperature-->
+        <option value="CtoF">Celsius to Fahrenheit</option>
+        <option value="FtoC">Fahrenheit to Celsius</option>
+        <option value="CtoK">Celsius to Kelvin</option>
+        <option value="KtoC">Kelvin to Celsius</option>
+        <option value="fToK">Fahrenheit to Kelvin</option>
+        <option value="kToF">Kelvin to Fahrenheit</option>
+  <!--Length-->
+        <option value="mToF">Meters to Feet</option>
+        <option value="fToM">Feet to Meter</option>
+        <option value="mtoY">Meter to Yard</option>
+        <option value="ytoM">Yard to meter</option>
+        <option value="ftoY">Feet to yard</option>
+        <option value="yToF">Yard to feet</option>
+  <!--Mass-->
+        <option value="gToK">Gram to kilogram</option>
+        <option value="kToG">Kilogram to gram</option>
+        <option value="gToO">Gram to ounces</option>
+        <option value="oToG">Ounces to gram</option>
+        <option value="gToP">Gram to Pound</option>
+        <option value="pToG">Pound to gram</option>
+        <option value="pToO">Pound to ounces</option>
+        <option value="oToP">Ounces to pound</option>
+        <option value="KToO">Kilogram to ounces</option>
+        <option value="oToK">Ounces to kilogram</option>
+        <option value="pToK">Pound to kilogram</option>
+        <option value="KToP">Kilogram to pound</option>
+
+</select>
+  <br><br>
+  <input type="submit" value="Convert">
+</form>
