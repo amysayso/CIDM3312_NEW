@@ -1,0 +1,40 @@
+@model MathOperation
+
+
+<form asp-controller="Math" class="form-horizontal" asp-action="DoCalculation" method="POST">
+    
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="LeftOperand">Left Operand</label>  
+  <div class="col-md-4">
+  <input id="LeftOperand" asp-for="@Model.LeftOperand" name="LeftOperand" type="text" placeholder="Number" class="form-control input-md">
+  
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Operations">Operater</label>  
+  <div class="col-md-4">
+  <input id="Operations" asp-for="@Model.Operator" name="Operations" type="text" placeholder="+,-,*,/" class="form-control input-md">
+    <div class="col-md-4"> </div>
+    <br/>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Right Operand">Right Operand</label>  
+  <div class="col-md-4">
+  <input id="Right Operand" asp-for="@Model.RightOperand" name="Right Operand" type="text" placeholder="Number" class="form-control input-md">
+   
+  </div>
+</div>
+<br/>
+<br/>
+<input type="submit" value="Submit">
+</fieldset>
+</form>
+
+
+

@@ -56,7 +56,7 @@ namespace Midterm2
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Math}/{action=DoCalculation}/{id?}");
             });
         }
     }

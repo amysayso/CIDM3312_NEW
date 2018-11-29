@@ -12,23 +12,36 @@ namespace Midterm2.Controllers
 {
     public class MathController : Controller
     {
-        // public IActionResult Calculator()
-        // {
-            
-        //     return View();
-        // }
 
         [HttpGet]
-        public IActionResult DoCalcuation(MathOperation models)
+        public IActionResult DoCalculation()
         {
             return View();
         }
 
 
         [HttpPost]
-        public IActionResult ShowCalculationResults()
+        public IActionResult ShowCalculationResults(MathOperation operation)
         {
-            return View();
+            switch(operation.Operator)
+            {
+                case "+":
+                    operation.Result = MathLibrary.MyMathRoutines.Add(operation.LeftOperand, operation.RightOperand);
+                    break;
+                
+                case "-":
+                    operation.Result = MathLibrary.MyMathRoutines.Subtract(operation.LeftOperand, operation.RightOperand);
+                    break;
+
+                case "*":
+                    operation.Result = MathLibrary.MyMathRoutines.Multiply(operation.LeftOperand, operation.RightOperand);
+                    break;
+                
+                case "/":
+                    operation.Result = MathLibrary.MyMathRoutines.Divide(operation.LeftOperand, operation.RightOperand);
+                    break;
+            }
+            return View(operation);
         }
 
        

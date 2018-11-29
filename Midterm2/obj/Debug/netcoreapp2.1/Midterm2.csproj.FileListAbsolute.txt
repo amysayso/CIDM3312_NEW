@@ -32,5 +32,5 @@
 /Users/amysayso/Desktop/CIDM3312/Midterm2/obj/Debug/netcoreapp2.1/Midterm2.csproj.CopyComplete
 /Users/amysayso/Desktop/CIDM3312/Midterm2/obj/Debug/netcoreapp2.1/Midterm2.dll
 /Users/amysayso/Desktop/CIDM3312/Midterm2/obj/Debug/netcoreapp2.1/Midterm2.pdb
-/Users/amysayso/Desktop/CIDM3312/Midterm2/obj/Debug/netcoreapp2.1/Razor/Views/Operations/Calculation.g.cshtml.cs
-/Users/amysayso/Desktop/CIDM3312/Midterm2/obj/Debug/netcoreapp2.1/Razor/Views/Operations/DoCalculation.g.cshtml.cs
+/Users/amysayso/Desktop/CIDM3312/Midterm2/obj/Debug/netcoreapp2.1/Razor/Views/Math/ShowCalculationResults.g.cshtml.cs
+/Users/amysayso/Desktop/CIDM3312/Midterm2/obj/Debug/netcoreapp2.1/Razor/Views/Math/DoCalculation.g.cshtml.cs

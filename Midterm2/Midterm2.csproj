@@ -12,6 +12,7 @@
     
     <!--<Reference Include="/Users/amysayso/Desktop/CIDM3312/HW/HW6/ConverterLib/bin/Debug/netstandard2.0/ConverterLib.dll"/>--> 
     <Reference Include="/Users/amysayso/Desktop/CIDM3312/Inclass/MathLibrary/bin/Debug/netstandard2.0/MathLibrary.dll"/>
+    
   </ItemGroup>
 
 </Project>
