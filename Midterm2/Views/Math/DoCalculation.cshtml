@@ -1,8 +1,8 @@
 @model MathOperation
 
-
-<form asp-controller="Math" class="form-horizontal" asp-action="DoCalculation" method="POST">
     
+<form class="form-horizontal" asp-controller="Math" asp-action="ShowCalculationResults" method="post">
+
 <!-- Text input-->
 <div class="form-group">
   <label class="col-md-4 control-label" for="LeftOperand">Left Operand</label>  
@@ -14,9 +14,9 @@
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="Operations">Operater</label>  
+  <label class="col-md-4 control-label" for="Operator">Operator</label>  
   <div class="col-md-4">
-  <input id="Operations" asp-for="@Model.Operator" name="Operations" type="text" placeholder="+,-,*,/" class="form-control input-md">
+  <input id="Operator" asp-for="@Model.Operator" name="Operator" type="text" placeholder="+,-,*,/" class="form-control input-md">
     <div class="col-md-4"> </div>
     <br/>
   </div>
@@ -24,9 +24,9 @@
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="Right Operand">Right Operand</label>  
+  <label class="col-md-4 control-label" for="Right Operand">RightOperand</label>  
   <div class="col-md-4">
-  <input id="Right Operand" asp-for="@Model.RightOperand" name="Right Operand" type="text" placeholder="Number" class="form-control input-md">
+  <input id="RightOperand" asp-for="@Model.RightOperand" name="RightOperand" type="text" placeholder="Number" class="form-control input-md">
    
   </div>
 </div>
