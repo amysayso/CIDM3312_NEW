@@ -6,22 +6,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace FinalProject.Models
 {
-    public class Member
+    public class Member : Person
     {
-        //PK
-        [Key]
-        public int memberID { get; set; }
-
-        //FirstName
-        public string FirstName {get; set; }
-
-        //LastName
-        public string LastName { get; set; }
-
-        //Phone
-        public string PhoneNumber { get; set; } 
-
-        //email
-        public string Email {get; set; }      
+        [Display(Name = "Major")] 
+        public string Major {get; set;}
+  
     }
 }

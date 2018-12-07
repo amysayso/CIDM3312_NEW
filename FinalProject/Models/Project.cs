@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
 namespace FinalProject.Models
@@ -10,16 +9,21 @@ namespace FinalProject.Models
     {
         //PK
         [Key]
-        public int ProjectID { get; set; }
+        public int ID { get; set; }
 
         //Name
-        public string Name {get; set; }
+        [Display(Name = " Project Name ")]
+        public string ProjectName {get; set; }
 
-        
-        //Required Hours
-        public int RequiredHours { get; set; } 
+        //Description 
+        [Display(Name = " Project Description ")]
+        public string ProjectDesc {get; set;}
 
-        //deadline
-        public DateTime deadline { get; set; }      
+        public ICollection<ProjectList> Person {get; set;}
+
+        public override string ToString()
+        {
+            return $"Project Name: {this.ProjectName}\nProject Description: {this.ProjectDesc}";
+        }
     }
 }
