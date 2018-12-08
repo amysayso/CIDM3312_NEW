@@ -9,7 +9,7 @@ namespace FinalProject.Models
     {
         //PK
         [Key]
-        public int ID { get; set; }
+        public int ProjectID { get; set; }
 
         //Name
         [Display(Name = " Project Name ")]

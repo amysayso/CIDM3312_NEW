@@ -8,7 +8,7 @@ namespace FinalProject.Models
     public class Person
     {
         [Key]
-        public string ID {get; set;}
+        public int ID {get; set;}
 
         [Display(Name = "First Name")]                
         public string FirstName { get; set; }

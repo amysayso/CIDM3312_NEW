@@ -150,37 +150,64 @@ namespace FinalProject.Models
                    return;
                }
 
-               var projectsFromDb = db.Project.ToList();
-               var clientsFromDb = db.Client.ToList();
-               var membersFromDb = db.Member.ToList();
+            //    var projectsFromDb = db.Project.ToList();
+            //    var clientsFromDb = db.Client.ToList();
+            //    var membersFromDb = db.Member.ToList();
 
-               var ProjectList = new List<ProjectList>
+               var projectLists = new List<ProjectList>
                {
                    //taking the project form above, the first client form above, and the first three students from above.
-                   new ProjectList { ProjectID = projectsFromDb.ElementAt(0).ID.ToString(),
-                                     Project = projectsFromDb.ElementAt(0),
-                                     PersonID = clientsFromDb.ElementAt(0).ID.ToString(),
-                                     Person = clientsFromDb.ElementAt(0)
+                   new ProjectList { ProjectID = projects[0].ProjectID,
+                                     Project = projects[0],
+                                     PersonID = clients[0].ID,
+                                     Person = clients[0]
                                     },
 
-                    new ProjectList { ProjectID = projectsFromDb.ElementAt(0).ID.ToString(),
-                                     Project = projectsFromDb.ElementAt(0),
-                                     PersonID = membersFromDb.ElementAt(0).ID.ToString(),
-                                     Person = membersFromDb.ElementAt(0)
+                    new ProjectList { ProjectID = projects[0].ProjectID,
+                                     Project = projects[0],
+                                     PersonID = members[0].ID,
+                                     Person = members[0]
                                     },
-                    new ProjectList { ProjectID = projectsFromDb.ElementAt(0).ID.ToString(),
-                                     Project = projectsFromDb.ElementAt(0),
-                                     PersonID = membersFromDb.ElementAt(1).ID.ToString(),
-                                     Person = membersFromDb.ElementAt(1)
+                    new ProjectList { ProjectID = projects[0].ProjectID,
+                                     Project = projects[0],
+                                     PersonID = members[1].ID,
+                                     Person = members[1]
                                     },
-                    new ProjectList { ProjectID = projectsFromDb.ElementAt(0).ID.ToString(),
-                                     Project = projectsFromDb.ElementAt(0),
-                                     PersonID = membersFromDb.ElementAt(2).ID.ToString(),
-                                     Person = membersFromDb.ElementAt(2)
+                    new ProjectList { ProjectID = projects[0].ProjectID,
+                                     Project = projects[0],
+                                     PersonID = members[2].ID,
+                                     Person = members[2]
+                                    },
+
+                                    new ProjectList { ProjectID = projects[0].ProjectID,
+                                     Project = projects[0],
+                                     PersonID = clients[1].ID,
+                                     Person = clients[1]
+                                    },
+
+                    new ProjectList { ProjectID = projects[0].ProjectID,
+                                     Project = projects[0],
+                                     PersonID = members[3].ID,
+                                     Person = members[3]
+                                    },
+                    new ProjectList { ProjectID = projects[0].ProjectID,
+                                     Project = projects[0],
+                                     PersonID = members[4].ID,
+                                     Person = members[4]
+                                    },
+                    new ProjectList { ProjectID = projects[0].ProjectID,
+                                     Project = projects[0],
+                                     PersonID = members[5].ID,
+                                     Person = members[5]
+                                    },
+                    new ProjectList { ProjectID = projects[0].ProjectID,
+                                     Project = projects[0],
+                                     PersonID = members[6].ID,
+                                     Person = members[6]
                                     },           
                    };
 
-                   db.AddRange(ProjectList);
+                   db.ProjectList.AddRange(projectLists);
                    db.SaveChanges();
 
                }

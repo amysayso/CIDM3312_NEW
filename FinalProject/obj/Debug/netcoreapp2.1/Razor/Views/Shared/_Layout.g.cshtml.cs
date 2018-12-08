@@ -64,7 +64,7 @@ using FinalProject.Models;
             WriteLiteral("<!DOCTYPE html>\r\n<html>\r\n");
             EndContext();
             BeginContext(25, 739, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f338590cf30245a9b71d8b9f65014029", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "605ca75b9fc14018bd6275eb7c3aa2bb", async() => {
                 BeginContext(31, 121, true);
                 WriteLiteral("\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>");
                 EndContext();
@@ -79,7 +79,7 @@ using FinalProject.Models;
                 WriteLiteral(" - FinalProject</title>\r\n\r\n    ");
                 EndContext();
                 BeginContext(201, 274, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cb81c133bfa044179d9dbb9a60718d80", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9fdae0ceda1e4aa08520cb203e72f4be", async() => {
                     BeginContext(236, 225, true);
                     WriteLiteral("\r\n         <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\" integrity=\"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm\" crossorigin=\"anonymous\">\r\n    ");
                     EndContext();
@@ -101,7 +101,7 @@ using FinalProject.Models;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(481, 274, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0348cb0cfd714c0d859e8f39e4234000", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bb03699da6d24062b74ab4d8bebe7ac4", async() => {
                     BeginContext(516, 225, true);
                     WriteLiteral("\r\n         <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\" integrity=\"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm\" crossorigin=\"anonymous\">\r\n    ");
                     EndContext();
@@ -138,7 +138,7 @@ using FinalProject.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(766, 2752, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f323d4a5c00341acadbae0e910eefe16", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "eec2a9da1743464b9b3e21dcf6dc325f", async() => {
                 BeginContext(772, 526, true);
                 WriteLiteral(@"
     <nav class=""navbar navbar-inverse navbar-fixed-top"">
@@ -153,7 +153,7 @@ using FinalProject.Models;
                 ");
                 EndContext();
                 BeginContext(1298, 93, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "98b0a7719f91443f9fc6e0f0a352ac56", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b4641ad47fa84f4ebe86ba512e8ed80b", async() => {
                     BeginContext(1375, 12, true);
                     WriteLiteral("FinalProject");
                     EndContext();
@@ -180,7 +180,7 @@ using FinalProject.Models;
                 WriteLiteral("\r\n            </div>\r\n            <!-- <div class=\"navbar-collapse collapse\"> -->\r\n                <ul class=\"nav navbar-nav\">\r\n                    <li>");
                 EndContext();
                 BeginContext(1543, 64, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8a4ec109b6cd442f8befd29200394f9a", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "717031e2bf0647f2a9fcfa2c7223fe68", async() => {
                     BeginContext(1599, 4, true);
                     WriteLiteral("Home");
                     EndContext();
@@ -206,7 +206,7 @@ using FinalProject.Models;
                 WriteLiteral("</li>\r\n                    <li>");
                 EndContext();
                 BeginContext(1638, 65, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3d43724a2fea43a093eb768f70a75691", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "383d6bf91b1e49c98d740bb198536087", async() => {
                     BeginContext(1694, 5, true);
                     WriteLiteral("About");
                     EndContext();
@@ -232,7 +232,7 @@ using FinalProject.Models;
                 WriteLiteral("</li>\r\n                    <li>");
                 EndContext();
                 BeginContext(1734, 69, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "67a56c186b4a4b6ca19b417e64fb8ab3", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5e6229191dc64b708a452f15ffd66caf", async() => {
                     BeginContext(1792, 7, true);
                     WriteLiteral("Contact");
                     EndContext();
@@ -268,7 +268,7 @@ using FinalProject.Models;
                 WriteLiteral("\r\n        <hr />\r\n        <footer>\r\n            <p>&copy; 2018 - FinalProject</p>\r\n        </footer>\r\n    </div>\r\n\r\n    ");
                 EndContext();
                 BeginContext(2132, 661, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8fe70a781ac5472a8036a66d67f4ce93", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0cc56bfeb02845728ac63784e15bbb42", async() => {
                     BeginContext(2167, 612, true);
                     WriteLiteral(@"
         <script src=""https://code.jquery.com/jquery-3.2.1.slim.min.js"" integrity=""sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"" crossorigin=""anonymous""></script>
@@ -294,7 +294,7 @@ using FinalProject.Models;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(2799, 660, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5418bb941d8c4b5aa10589dbeca2bb09", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c07828f9444347c2a6e8aaee95269e18", async() => {
                     BeginContext(2834, 611, true);
                     WriteLiteral(@"
        <script src=""https://code.jquery.com/jquery-3.2.1.slim.min.js"" integrity=""sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"" crossorigin=""anonymous""></script>
