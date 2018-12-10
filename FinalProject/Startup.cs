@@ -60,6 +60,7 @@ namespace FinalProject
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+            DataSeed.Seed(app);
         }
     }
 }

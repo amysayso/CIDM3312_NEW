@@ -19,11 +19,11 @@ namespace FinalProject.Models
         [Display(Name = " Project Description ")]
         public string ProjectDesc {get; set;}
 
-        public ICollection<ProjectList> Person {get; set;}
+        public ICollection<ProjectList> projectLists {get; set;}
 
-        public override string ToString()
-        {
-            return $"Project Name: {this.ProjectName}\nProject Description: {this.ProjectDesc}";
-        }
+        // public override string ToString()
+        // {
+        //     return $"Project Name: {this.ProjectName}\nProject Description: {this.ProjectDesc}";
+        // }
     }
 }

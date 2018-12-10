@@ -25,7 +25,7 @@ namespace FinalProject.Models
 
             modelBuilder.Entity<ProjectList>()
             .HasOne(p => p.Project)
-            .WithMany(pr => pr.Person)
+            .WithMany(pr => pr.projectLists)
             .HasForeignKey(id => id.ProjectID);
 
             modelBuilder.Entity<ProjectList>()
